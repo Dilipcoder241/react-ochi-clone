@@ -8,7 +8,7 @@ function Featured() {
             <h1 className='text-[4vw]'>Featured Projects</h1>
         </div>
 
-        <div className='p-20'>
+        <div className='p-5 lg:p-20'>
             <div className='flex flex-col lg:flex-row gap-5'>
             <div className='h-full w-full lg:w-1/2'>
                 <div className='flex items-center gap-2'>
