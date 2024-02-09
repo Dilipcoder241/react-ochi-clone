@@ -4,7 +4,7 @@ import React from 'react'
 function Featured() {
   return (
     <div>
-        <div className='px-14 py-5 border-b-[1px] border-[#3a3a3a52]'>
+        <div className='px-5 lg:px-14 py-5 border-b-[1px] border-[#3a3a3a52]'>
             <h1 className='text-[4vw]'>Featured Projects</h1>
         </div>
 

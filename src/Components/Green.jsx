@@ -2,8 +2,8 @@ import React from 'react'
 
 function Green() {
   return (
-    <div className='bg-[#CDEA68] pt-1 pb-10'>
-        <div className='p-14 mt-10'>
+    <div className='bg-[#CDEA68] pt-1 pb-5 lg:pb-10'>
+        <div className='p-5 lg:p-14 mt-5 lg:mt-10'>
             <p className='text-[3.7vw] leading-none tracking-tighter w-[80vw]'>Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</p>
         </div>
 
@@ -40,7 +40,7 @@ function Green() {
             </div>
 
             <div className='w-full lg:w-1/2 h-full rounded-lg overflow-hidden'>
-                <div className='w-3/4 h-3/4 lg:w-full lg:h-full'>
+                <div className='w-full h-3/4 lg:w-full lg:h-full'>
                     <img src="./our-approach.jpg" alt="our approach"  className='object-cover object-center w-full h-full'/>
                 </div>
             </div>
