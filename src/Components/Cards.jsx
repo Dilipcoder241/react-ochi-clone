@@ -16,12 +16,12 @@ function Cards() {
             <div className='w-full lg:w-1/2 h-[60%] flex gap-4'>
                 <div className='bg-[#212121] w-1/2 h-full rounded-xl relative'>
                     <img src="./logo02.svg" alt="" className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'/>
-                <button className='border-2 text-white py-1 px-3 rounded-full absolute left-10 bottom-10'>RATING 5.0 ON CLUTCH</button>
+                <button className='border-2 text-white py-1 px-3 rounded-full absolute left-10 bottom-10 text-sm lg:text-base'>RATING 5.0 ON CLUTCH</button>
 
                 </div>
                 <div className='bg-[#212121] w-1/2 h-full rounded-xl relative'>
                     <img src="./logo03.png" alt="" className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3'/>
-                <button className='border-2 text-white py-1 px-3 rounded-full absolute left-10 bottom-10'>BUSINESS BUOOTCAMP ALUMNI</button>
+                <button className='border-2 text-white py-1 px-3 rounded-full absolute left-10 bottom-10 text-sm lg:text-base'>BUSINESS BUOOTCAMP ALUMNI</button>
 
                 </div>
             </div>
