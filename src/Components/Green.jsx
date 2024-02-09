@@ -7,12 +7,12 @@ function Green() {
             <p className='text-[3.7vw] leading-none tracking-tighter w-[80vw]'>Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</p>
         </div>
 
-        <div className='w-full border-t-[2px] border-b-[2px] border-[#3333333c] py-5 px-14 flex flex-col lg:flex items-center pb-20'>
+        <div className='w-full border-t-[2px] border-b-[2px] border-[#3333333c] py-5 px-14 flex flex-col lg:flex-row items-center pb-20'>
             <div className='w-9/12'>
                 <p>What you can expect:</p>                
             </div>
 
-            <div className='flex flex-col lg:flex'>
+            <div className='flex flex-col lg:flex-row'>
                 <div className="left w-2/3 lg:w-1/2">
                 <p className='mb-10'>We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it's live or digital, delivered for one or a hundred people.</p>
                 <p>We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</p>
@@ -30,7 +30,7 @@ function Green() {
             </div>
         </div>
 
-        <div className='flex flex-col lg:flex items-center px-10 lg:px-12 py-5 h-[75vh]'>
+        <div className='flex flex-col lg:flex-row items-center px-10 lg:px-12 py-5 h-[75vh]'>
             <div className='w-1/2 self-start'>
                 <h1 className='text-[3vw]'>Our approach:</h1>
                 <button className='mt-5 mb-5 rounded-full bg-gray-800 text-white px-9 py-3 flex items-center gap-5'>

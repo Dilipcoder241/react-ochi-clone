@@ -9,7 +9,7 @@ function Featured() {
         </div>
 
         <div className='p-20'>
-            <div className='flex flex-col lg:flex gap-5'>
+            <div className='flex flex-col lg:flex-row gap-5'>
             <div className='h-full w-3/4 lg:w-1/2'>
                 <div className='flex items-center gap-2'>
                     <div className="circle h-2 w-2 bg-black rounded-full"></div>

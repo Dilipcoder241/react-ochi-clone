@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div className='min-h-screen flex flex-col lg:flex px-20 pb-10'>
+        <div className='min-h-screen flex flex-col lg:flex-row px-20 pb-10'>
             <div className='text-[6vw] w-1/2 flex flex-col justify-between'>
                 <div>
                     <h1 className='leading-none font-bold tracking-tighter'>EYE-</h1>
