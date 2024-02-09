@@ -21,7 +21,7 @@ function Eyes() {
   return (
     <div  className='relative h-screen w-full bg-[url("./Eyes-bg.jpg")] bg-cover bg-center'>
       <div data-scroll data-scroll-speed=".5" className='w-full h-full'>
-        <div className="absolute h-[200px] w-[450px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-10">
+        <div className="absolute h-[100px] w-[300px] lg:h-[200px] lg:w-[450px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-10">
             <div className='relative w-1/2 rounded-full bg-white'>
                 <div className='h-36 w-36 bg-black rounded-full relative top-[50%] left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     <div style={{transform:`translate(-50% , -50%) rotate(${rotate}deg) `}} className="line w-full h-6 absolute top-1/2 left-1/2">
