@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { HiMenuAlt4 } from "react-icons/hi";
 
 const Navbar = () => {
   return (
@@ -13,10 +14,11 @@ const Navbar = () => {
 								</svg>
         </div>
 
-        <div className="links flex gap-7">
+        <div className="links gap-7 hidden lg:flex">
             {["Services" , "Our Work" , "About us" , "Insights" , "Contact us"].map((item, index)=>(
                 <a key={item} href="#" className={`${index==4 && "ml-64"} text-base`}>{item}</a>
             ))}
+            <div className='lg:hidden mr-20'><HiMenuAlt4 className='text-2xl'/></div>
         </div>
     </div>
   )

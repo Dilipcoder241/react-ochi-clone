@@ -19,7 +19,7 @@ function Eyes() {
     
 
   return (
-    <div  className='relative h-screen w-full bg-[url("./Eyes-bg.jpg")] bg-cover '>
+    <div  className='relative h-screen w-full bg-[url("./Eyes-bg.jpg")] bg-cover bg-center'>
       <div data-scroll data-scroll-speed=".5" className='w-full h-full'>
         <div className="absolute h-[200px] w-[450px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-10">
             <div className='relative w-1/2 rounded-full bg-white'>
