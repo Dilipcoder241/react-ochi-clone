@@ -19,7 +19,7 @@ function Footer() {
                     </svg>
                 </div>
             </div>
-            <div className=" w-1/2">
+            <div className="w-full lg:w-1/2">
                 <h1 className='text-[6vw] font-bold tracking-tighter mb-6'>PRESENTATION</h1>
 
                 <div>

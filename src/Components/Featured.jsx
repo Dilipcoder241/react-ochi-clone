@@ -22,7 +22,7 @@ function Featured() {
                     </div>
                 </motion.div>
 
-                <div className='btns flex gap-3'>
+                <div className='btns flex gap-3 flex-col lg:flex-row    '>
                     <button className='border-2 border-[#000] rounded-full px-3 py-1 text-sm'>AUDIT</button>
                     <button className='border-2 border-[#000] rounded-full px-3 py-1 text-sm'>COPYWRITING</button>
                     <button className='border-2 border-[#000] rounded-full px-3 py-1 text-sm'>SALES DECK</button>
